@@ -3,71 +3,81 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>P&L — Pixel & Logic</title>
-  <meta name="description" content="P&L (Pixel & Logic) creates clean, production-ready Unity tools focused on performance and clarity." />
+  <title>P&L — Pixel & Logic | Unity Tools</title>
+
+  <meta name="description" content="P&L (Pixel & Logic) creates clean, production-ready Unity tools focused on performance, clarity, and usability." />
   <meta name="theme-color" content="#0F1115" />
 
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
+  <!-- HEADER -->
   <header class="header">
     <div class="container nav">
-      <a class="brand" href="#top" aria-label="P&L home">
+      <a class="brand" href="#top">
         <span class="mark">P&L</span>
         <span class="wordmark">Pixel & Logic</span>
       </a>
 
-      <nav class="links" aria-label="Primary">
-        <a href="#assets">Assets</a>
+      <nav class="links">
         <a href="#about">About</a>
         <a href="#support">Support</a>
       </nav>
-
-      <a class="btn btn-small" href="#assets">View Assets</a>
     </div>
   </header>
 
   <main id="top">
+    <!-- HERO -->
     <section class="hero">
       <div class="container hero-grid">
         <div>
           <p class="kicker">Unity Tools • Clean Systems • No Bloat</p>
           <h1>Build smarter. Ship faster.</h1>
           <p class="sub">
-            <strong>P&L (Pixel & Logic)</strong> creates production-ready Unity assets focused on
-            performance, clarity, and easy integration.
+            <strong>P&L (Pixel & Logic)</strong> creates clean, production-ready Unity tools
+            focused on performance, clarity, and easy integration.
           </p>
 
           <div class="cta-row">
-            <!-- Replace # with your Unity publisher URL -->
-            <a class="btn" href="#" target="_blank" rel="noopener">Unity Asset Store</a>
-            <a class="btn btn-ghost" href="#support">Contact / Support</a>
+            <a class="btn" href="https://assetstore.unity.com" target="_blank" rel="noopener">
+              Unity Asset Store
+            </a>
+            <a class="btn btn-ghost" href="#support">
+              Contact
+            </a>
           </div>
 
           <div class="badges">
             <span class="badge">Clean Architecture</span>
-            <span class="badge">Clear Docs</span>
+            <span class="badge">Performance Focused</span>
             <span class="badge">Production Ready</span>
           </div>
         </div>
 
+        <!-- VISUAL PREVIEW CARD -->
         <div class="card preview">
           <div class="preview-top">
-            <div class="dot"></div><div class="dot"></div><div class="dot"></div>
-            <span class="preview-title">P&L Toolkit</span>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <span class="preview-title">P&L Systems</span>
           </div>
           <div class="preview-body">
             <div class="line w90"></div>
             <div class="line w75"></div>
             <div class="line w60"></div>
+
             <div class="spacer"></div>
+
             <div class="chip-row">
-              <span class="chip">Performance</span>
               <span class="chip">Modular</span>
               <span class="chip">Maintainable</span>
+              <span class="chip">Lightweight</span>
             </div>
+
             <div class="spacer"></div>
+
             <div class="grid">
               <div class="tile"></div>
               <div class="tile"></div>
@@ -79,50 +89,82 @@
       </div>
     </section>
 
-   
-
+    <!-- ABOUT -->
     <section id="about" class="section section-alt">
       <div class="container two-col">
         <div>
           <h2>About P&L</h2>
           <p>
-            P&L (Pixel & Logic) builds Unity tools designed for real projects:
-            clean structure, solid performance, and easy onboarding.
+            P&L (Pixel & Logic) builds Unity tools designed for real-world projects.
+            Our focus is on clean code, solid performance, and workflows that scale.
           </p>
+
           <ul class="list">
-            <li>Minimal setup, sensible defaults</li>
-            <li>Clear documentation & examples</li>
-            <li>Assets designed to scale with your project</li>
+            <li>Minimal setup with sensible defaults</li>
+            <li>Clear documentation and examples</li>
+            <li>Assets designed for long-term maintainability</li>
           </ul>
         </div>
 
         <div class="card">
-          <h3>Brand Pillars</h3>
+          <h3>Core Principles</h3>
           <div class="pillars">
             <div class="pillar">
               <strong>Clarity</strong>
-              <span>Readable code + clean UX</span>
+              <span>Readable systems and clean UX</span>
             </div>
             <div class="pillar">
               <strong>Performance</strong>
-              <span>Lightweight systems</span>
+              <span>Lightweight, efficient tools</span>
             </div>
             <div class="pillar">
               <strong>Reliability</strong>
-              <span>Production-ready defaults</span>
+              <span>Production-ready design</span>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-   
+    <!-- SUPPORT -->
+    <section id="support" class="section">
+      <div class="container">
+        <h2>Support & Contact</h2>
+        <p>
+          Questions, bug reports, or feature requests — feel free to reach out.
+        </p>
+
+        <div class="contact">
+          <div class="contact-row">
+            <span class="label">Email</span>
+            <a class="link" href="mailto:pixelnlogic@gmail.com">
+              pixelnlogic@gmail.com
+            </a>
+          </div>
+
+          <div class="contact-row">
+            <span class="label">X / Twitter</span>
+            <a class="link" href="https://x.com/PnL_dev" target="_blank" rel="noopener">
+              @PnL_dev
+            </a>
+          </div>
+
+          <div class="contact-row">
+            <span class="label">GitHub</span>
+            <a class="link" href="https://github.com/pixelnlogic-dev" target="_blank" rel="noopener">
+              github.com/pixelnlogic-dev
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
+  <!-- FOOTER -->
   <footer class="footer">
     <div class="container footer-inner">
       <span>© <span id="year"></span> P&L (Pixel & Logic)</span>
-      <span class="muted">Made for Unity developers.</span>
+      <span class="muted">Built for Unity developers.</span>
     </div>
   </footer>
 
